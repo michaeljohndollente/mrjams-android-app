@@ -1,0 +1,121 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Mr Jams</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="logout" tools:ignore="ExtraTranslation">Logout</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_clinic">Clinic</string>
+    <string name="menu_mail">Mail</string>
+    <string name="menu_about">About</string>
+    <string name="menu_contact">Contact Us</string>
+
+    <string name="Register">Register Now</string>
+
+
+    <string name="mrjams_logo">Icon</string>
+
+    <string name="about_us">About MR. JAMS</string>
+
+    <string name="contact_us">Want to know more? \n Drop us a mail.</string>
+
+    <string name="btnSend">Send</string>
+
+    <string name="txtFname">First Name</string>
+    <string name="txtMname">Middle Name</string>
+    <string name="txtLname">Last Name</string>
+    <string name="txtAge">Age</string>
+    <string name="txtPassword">Password</string>
+
+    <string name="txtGender">Gender</string>
+    <string name="txtAddLn1">Address Line 1</string>
+    <string name="txtAddLn2">Address Line 2</string>
+    <string name="txtCity">City</string>
+    <string name="txtZipCode">Zip Code</string>
+    <string name="txtAccExist">Already have an account?</string>
+
+
+    <string name="txtEmail">Email</string>
+    <string name="txtNum">Contact Number (09##)</string>
+
+
+    <string name="txtMessage">Your Message</string>
+    <string name="txtMission">Mission</string>
+    <string name="txtVision">Vision</string>
+    <string name="txtSignin">Sign In</string>
+    <string name="txtTesting">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </string>
+
+    <string name="hello">Hello, I\'m a just a dummy contact in your contact list and this is my presentation text. Have fun!</string>
+
+
+<!--    <string name="URLProject">https://mrjams.herokuapp.com/</string>-->
+<!--    <string name="URLProjectwithhttp">http://mrjams.herokuapp.com/</string>-->
+
+        <string name="URLProject">https://mrjams.live/</string>
+        <string name="URLProjectwithhttp">https://mrjams.live/</string>
+
+<!--    <string name="URLProject">http://192.168.1.2:8000/</string>-->
+<!--    <string name="URLProjectwithhttp">http://192.168.1.2:8000/</string>-->
+
+<!--    <string name="URLProject">http://192.168.1.9:8000/</string>-->
+<!--    <string name="URLProjectwithhttp">http://192.168.1.9:8000/</string>-->
+
+    <string-array name="genders">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="ratingfield">
+        <item>Appointment</item>
+        <item>Billings</item>
+        <item>Calendar</item>
+        <item>Dashboard</item>
+        <item>Emails</item>
+        <item>Logs</item>
+        <item>Mapping</item>
+        <item>Material Inventory</item>
+        <item>Packages</item>
+        <item>Services</item>
+        <item>Settings</item>
+        <item>User Interface</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="menu_login">Log In</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="ViewMore">"View More"</string>
+
+
+    <!--google related-->
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="true">AIzaSyDx5Mga9SILR0sQuHufPru0rCiTmQiBkvs</string>
+    <string name="title_activity_try">Try</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="view_more">View More</string>
+    <string name="undraw_doctors_hwty">undraw_doctors_hwty</string>
+    <string name="rateme">How would you rate our clinic?</string>
+    <string name="for_whom_is_this_appointment">For whom is this appointment?</string>
+    <string name="announcement">Announcement</string>
+    <string name="profile">Profile</string>
+    <string name="about_usText">MR. JAMS is a web and mobile application that allows users to schedule appointments with clinics that have registered for the system. You may also find out which clinic is nearest to your present location by using this website. You will also get the information a user requires at that clinic, such as the clinic\'s address, phone number, services, packages, clinic schedules, doctors, clinic rate, and the clinic\'s distance from your current location. Clinics who registered in this web application will gain access to a management system that will allow them to keep track of their supplies, equipment, services, packages, reports, incoming appointments, doctor availability, patient records, and much more. To assist them in their regular tasks.</string>
+    <string name="ratetext">Let us know if you have ideas that can help make our products better. If you need help with solving a specific  problem, please email us directly.</string>
+    <string name="appointment">Appointment</string>
+    <string name="title">Appointment and Management System for Dental and Medical Clinics with Location-Based Mapping</string>
+
+
+</resources>

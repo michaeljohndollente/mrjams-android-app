@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "326842325680",
+    "project_id": "mrjams-cbbd9",
+    "storage_bucket": "mrjams-cbbd9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326842325680:android:277756f6ce0ebe39f4f975",
+        "android_client_info": {
+          "package_name": "com.example.mrjams"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326842325680-896ovmpj4nnmkpt360vafer4d8vufa8s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mrjams",
+            "certificate_hash": "549021a27a0d3e2c5d2ffedfa21a70c5e5e84cbd"
+          }
+        },
+        {
+          "client_id": "326842325680-7cjm4l6a9aeevlj5aeren5n8ies2tfj5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBAV-t2XBVsA53WKzJbBMnfG1oWZWbk1A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326842325680-7cjm4l6a9aeevlj5aeren5n8ies2tfj5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.announcement.AnnouncementFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/red"
+                android:textAlignment="center"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:text="ANNOUNCEMENT"
+                android:layout_marginVertical="10dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/RecyclerViewAnnouncement"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:listitem="@layout/announcement_item"/>
+
+            </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSendMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginStart="10dp"
+            android:foregroundGravity="right"
+            android:layout_marginEnd="15dp"
+            android:text="Send us a Message!"/>
+
+    <Button
+        android:id="@+id/btnSysRating"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/warning"
+        android:textColor="@color/black"
+        android:text="Would You Like \nto Rate our System?"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

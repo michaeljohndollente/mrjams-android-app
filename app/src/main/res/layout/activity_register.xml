@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6497B1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="137dp"
+            android:layout_height="130dp"
+            app:srcCompat="@drawable/mr_jams_logo"
+            android:contentDescription="@string/mrjams_logo" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/Register"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="36sp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                app:boxCornerRadiusBottomEnd="15sp"
+                app:boxCornerRadiusBottomStart="15sp"
+                app:boxCornerRadiusTopEnd="15sp"
+                app:boxCornerRadiusTopStart="15sp" >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tboxFname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/light_shakespeare"
+                    android:enabled="false"
+                    android:ems="10"
+                    android:hint="@string/txtFname"
+                    android:inputType="textPersonName"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/text_shakespeare"
+                    tools:ignore="TextContrastCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:boxCornerRadiusBottomEnd="15sp"
+                app:boxCornerRadiusBottomStart="15sp"
+                app:boxCornerRadiusTopEnd="15sp"
+                app:boxCornerRadiusTopStart="15sp"
+                app:circularflow_defaultRadius="15sp"
+                app:circularflow_radiusInDP="15sp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tboxMname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/light_shakespeare"
+                    android:ems="10"
+                    android:hint="@string/txtMname"
+                    android:inputType="textPersonName"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/text_shakespeare"
+                    tools:ignore="TextContrastCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:boxCornerRadiusBottomEnd="15sp"
+                app:boxCornerRadiusBottomStart="15sp"
+                app:boxCornerRadiusTopEnd="15sp"
+                app:boxCornerRadiusTopStart="15sp"
+                app:circularflow_defaultRadius="15sp"
+                app:circularflow_radiusInDP="15sp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tboxLname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/light_shakespeare"
+                    android:enabled="false"
+                    android:ems="10"
+                    android:hint="@string/txtLname"
+                    android:inputType="textPersonName"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/text_shakespeare"
+                    tools:ignore="TextContrastCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:boxCornerRadiusBottomEnd="15sp"
+                app:boxCornerRadiusBottomStart="15sp"
+                app:boxCornerRadiusTopEnd="15sp"
+                app:boxCornerRadiusTopStart="15sp"
+                app:circularflow_defaultRadius="15sp"
+                app:circularflow_radiusInDP="15sp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tboxEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/light_shakespeare"
+                    android:enabled="false"
+                    android:ems="10"
+                    android:hint="@string/txtEmail"
+                    android:inputType="textPersonName"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/text_shakespeare"
+                    tools:ignore="TextContrastCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    app:boxCornerRadiusBottomEnd="15sp"
+                    app:boxCornerRadiusBottomStart="15sp"
+                    app:boxCornerRadiusTopEnd="15sp"
+                    app:boxCornerRadiusTopStart="15sp"
+                    app:circularflow_defaultRadius="15sp"
+                    app:circularflow_radiusInDP="15sp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/tboxAge"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/light_shakespeare"
+                        android:ems="10"
+                        android:hint="@string/txtAge"
+                        android:inputType="number"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/text_shakespeare"
+                        tools:ignore="TextContrastCheck" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    app:boxCornerRadiusBottomEnd="15sp"
+                    app:boxCornerRadiusBottomStart="15sp"
+                    app:boxCornerRadiusTopEnd="15sp"
+                    android:hint="@string/txtGender"
+                    app:boxCornerRadiusTopStart="15sp"
+                    app:circularflow_defaultRadius="15sp"
+                    app:circularflow_radiusInDP="15sp">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/tboxGender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/light_shakespeare"
+                        android:ems="10"
+                        android:inputType="none"
+                        android:textColor="@color/text_shakespeare"
+                        tools:ignore="TextContrastCheck" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:boxCornerRadiusBottomEnd="15sp"
+                app:boxCornerRadiusBottomStart="15sp"
+                app:boxCornerRadiusTopEnd="15sp"
+                app:boxCornerRadiusTopStart="15sp"
+                app:circularflow_defaultRadius="15sp"
+                app:circularflow_radiusInDP="15sp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tboxAddLine1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/light_shakespeare"
+                    android:ems="10"
+                    android:hint="@string/txtAddLn1"
+                    android:inputType="text"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/text_shakespeare"
+                    tools:ignore="TextContrastCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:boxCornerRadiusBottomEnd="15sp"
+                app:boxCornerRadiusBottomStart="15sp"
+                app:boxCornerRadiusTopEnd="15sp"
+                app:boxCornerRadiusTopStart="15sp"
+                app:circularflow_defaultRadius="15sp"
+                app:circularflow_radiusInDP="15sp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tboxAddLine2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/light_shakespeare"
+                    android:ems="10"
+                    android:hint="@string/txtAddLn2"
+                    android:inputType="text"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/text_shakespeare"
+                    tools:ignore="TextContrastCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    app:boxCornerRadiusBottomEnd="15sp"
+                    app:boxCornerRadiusBottomStart="15sp"
+                    app:boxCornerRadiusTopEnd="15sp"
+                    app:boxCornerRadiusTopStart="15sp"
+                    app:circularflow_defaultRadius="15sp"
+                    app:circularflow_radiusInDP="15sp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/tboxCity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/light_shakespeare"
+                        android:ems="10"
+                        android:hint="@string/txtCity"
+                        android:inputType="text"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/text_shakespeare"
+                        tools:ignore="TextContrastCheck" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    app:boxCornerRadiusBottomEnd="15sp"
+                    app:boxCornerRadiusBottomStart="15sp"
+                    app:boxCornerRadiusTopEnd="15sp"
+                    app:boxCornerRadiusTopStart="15sp"
+                    app:circularflow_defaultRadius="15sp"
+                    app:circularflow_radiusInDP="15sp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/tboxZip"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/light_shakespeare"
+                        android:ems="10"
+                        android:hint="@string/txtZipCode"
+                        android:inputType="number"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/text_shakespeare"
+                        tools:ignore="TextContrastCheck" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:boxCornerRadiusBottomEnd="15sp"
+                app:boxCornerRadiusBottomStart="15sp"
+                app:boxCornerRadiusTopEnd="15sp"
+                app:boxCornerRadiusTopStart="15sp"
+                app:circularflow_defaultRadius="15sp"
+                app:circularflow_radiusInDP="15sp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tboxContactNum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/light_shakespeare"
+                    android:ems="10"
+                    android:hint="@string/txtNum"
+                    android:inputType="phone"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/text_shakespeare" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="180dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/btnSend"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                app:cornerRadius="15sp"
+                tools:ignore="TextContrastCheck" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
